@@ -1,25 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Home from './pages/Home'
 import './App.css'
-import stag from './assets/stag.png'
+
+
+import { Outlet } from 'react-router-dom';
+import Nav from './components/NavTabs';
 
 function App() {
- 
-  return(
-  <div>
-    <nav className="navbar">
-  <div className="container-fluid">
-    
-      <a className="navbar-brand" href="#"><img src={stag}></img>StagCrest Creations</a>
-        <a className="nav-link active" aria-current="page" href="#">Home</a>
-        <a className="nav-link" href="#">About</a>
-        <a className="nav-link" href="#">Projects</a>
-        <a className="nav-link" href="#" >Contact</a>
-     </div>
-</nav>
-  </div>
-  )}
+  // The Outlet component will conditionally swap between the different pages according to the URL
+  return (
+    <>
+      <Nav />
+      <main className="mx-3">
+        <Outlet />
+      </main>
+    </>
+  );
+}
 
 export default App
