@@ -1,19 +1,19 @@
 
 .navbar-custom {
   color: #021A24;
-  background-color: #D8F4F1;
+  background-color: #FDFCFC;
 }
 
 .navbar {
   margin-right: 50px;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 60px;
   padding-bottom: 20px;
   border-bottom: solid black 4px;
 }
 
 .navbar-brand {
-  margin-right: 250px;
+  /* margin-right: 250px; */
   font-size: 25px;
   text-decoration: none;
   font-weight: 200;
@@ -24,11 +24,11 @@
   font-size: 25px;
   text-decoration: none;
   font-weight: 200;
-  padding: 5px 50px;
+  padding: 5px;
   margin-right: 5px;
   }
 
-  img {
+  #stag {
     height: 80px;
     width: auto;
   }
