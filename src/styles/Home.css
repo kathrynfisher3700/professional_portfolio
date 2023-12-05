@@ -1,14 +1,17 @@
 #icon {
     height: 600px;
     width: auto;
-    margin: 80px 20px 80px 300px;
+
 }
 
 #paint{
-    height: 200px;
+    height: 180px;
+    margin-top: 50px;
 
 }
-div {
-    flex: wrap
-}
 
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
