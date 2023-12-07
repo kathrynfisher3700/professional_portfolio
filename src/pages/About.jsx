@@ -12,7 +12,6 @@ function About() {
             <li>Full Stack Web Development 2023</li>
             <li>Bachelor of Arts: Criminal Justice and Corrections</li>
           </ul>
-          <h2>Background</h2>
         </div>
       </div>
       <div className="buttonHolder">

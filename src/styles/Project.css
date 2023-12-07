@@ -1,0 +1,9 @@
+.card {
+    width: 18rem;
+}
+
+.holder {
+    margin: 50px 50px 50px 50px;
+    align-items: center;
+    justify-content: space-around;
+}
