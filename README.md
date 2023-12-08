@@ -1,8 +1,32 @@
-# React + Vite
+# Kathryn-Dougherty-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Welcome to my portfolio. Here you can explore my skills and talents through current projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👋 To future employers: This website and included projects were built during an intensive UCF Coding Bootcamp (Sept-Dec 2023). If this is what I can accomplish in only 3-months, imagine the potential that awaits your company.
+
+👋 To friends, family, and explorers: I'm open for feedback, questions, and collaboration!
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+
+## Installation
+
+1. Use the command line
+
+        npm install
+        npm run start
+
+## Usage
+
+Explore and Reach Out!
+
+![alt text](./src/assets/portfolio.png)
+
+## Credits
+
+Project created by Kathryn Dougherty with instruction from the UCF Coding Bootcamp.
