@@ -4,6 +4,6 @@
 
 .holder {
     margin: 50px 50px 50px 50px;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    justify-items: center;
 }

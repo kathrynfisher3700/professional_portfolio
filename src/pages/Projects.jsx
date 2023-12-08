@@ -2,81 +2,66 @@
 import "../styles/Project.css";
 import "bootstrap/dist/css/bootstrap.css";
 
+import petPic from "../assets/pet_connect_deployed.png";
+import songSafari from "../assets/songSafari2.png";
+import portfolio from "../assets/portfolio.png";
+import koi from "../assets/logo1.png";
 
 function Projects() {
   return (
     <div className="holder justify-content-evenly">
-    <div className="d-flex d-inline-flex p-4 ">
+    <div className="d-inline-flex p-3 center">
       <div className="card ">
-        <img src="" className="card-img-top" alt=""></img>
+        <img src={songSafari} className="card-img-top" alt=""></img>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">SongSafari</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Team Project - HTML/CSS/JS
           </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
+          <a href="https://github.com/kathrynfisher3700/songSafari" target="_blank" className="btn btn-primary">
+            View on Github
           </a>
         </div>
       </div>
     </div>
-    <div className="d-flex d-inline-flex p-4">
+    <div className="d-inline-flex p-3">
       <div className="card">
-        <img src="" className="card-img-top" alt=""></img>
+        <img src={petPic} className="card-img-top" alt=""></img>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">PetConnect</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Team Project - JS/Express
           </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
+          <a href="https://github.com/AlexLenson/PetConnect" target="_blank" className="btn btn-primary">
+            View on Github
           </a>
         </div>
       </div>
     </div>
-    <div className="d-flex d-inline-flex p-4">
+    <div className="d-inline-flex p-3">
       <div className="card" >
-        <img src="" className="card-img-top" alt=""></img>
+        <img src={portfolio} className="card-img-top" alt=""></img>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">Portfolio</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Personal Project - React.js
           </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
+          <a href="https://github.com/kathrynfisher3700/professional_portfolio" target="_blank" className="btn btn-primary">
+            View on Github
           </a>
         </div>
       </div>
     </div>
-    <div className="d-flex d-inline-flex p-4">
+    <div className="d-inline-flex p-3">
       <div className="card">
-        <img src="" className="card-img-top" alt=""></img>
+        <img src={koi} className="card-img-top" alt=""></img>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">KOI Invoicing</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Team Project - MERN fullstack
           </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-    </div>
-    <div className="d-flex d-inline-flex p-6">
-      <div className="card">
-        <img src="" className="card-img-top" alt=""></img>
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
+          <a href="https://github.com/jradmorrison/koi-invoicing" target="_blank" className="btn btn-primary">
+            View on Github
           </a>
         </div>
       </div>
