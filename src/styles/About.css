@@ -2,6 +2,14 @@
     margin: 50px 30px 30px 200px;
 }
 
+a {
+  color: white;
+}
+
+p {
+  margin-right: 200px;
+}
+
 .button {
     margin: 20px;
 }
